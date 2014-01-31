@@ -1,5 +1,18 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'rails_layout'
+end
+
+gem 'haml', '~> 4.0.4'
+gem 'haml-rails'
+gem 'foundation-rails'
+gem 'foundation_rails_helper'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
